@@ -5,8 +5,13 @@
     }
 
     body{
-    line-height:1.7;
+        line-height:1.7;
     }
+
+    footer{
+        padding-bottom:30px;
+    }
+
     .logo{
         width:20%;
         margin: auto;
@@ -29,6 +34,7 @@
         height: auto;
         margin: auto;
     }
+
     .image-container {
     display: flex;
     justify-content: space-around; 
@@ -86,7 +92,7 @@
         background-color: #70a5d7;
         color: #fff;
         border-radius: 8px;
-        padding: .75rem 1.5rem;
+        padding: .75rem 1.5rem ;
         transition:.5s;
     }
 
@@ -94,10 +100,53 @@
         background-color: #0090aa;
     }
 
-    .free{
+    .free-0{
         padding: 100px;
         width:auto;
         height: 100px;
         font-size:20px;
     }
+
+   .free-1 p{
+        text-align: center;
+        padding: 20px;
+        width:auto;
+        height: 10px;
+        font-size:20px;
+    }
+
+    .free-2{
+        text-align: center;
+        padding:10px;
+        font-size: 30px;
+    }
+
+    .free-2 p{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .container{
+        display: flex;
+
+        gap: 20px;
+    }
+
+    .card{
+        width:550px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid;
+    }
+
+    .card img{
+        width:325px;
+        height: 300px;
+        object-fit: cover;
+        align-items: center;
+    }
+
+
 }
